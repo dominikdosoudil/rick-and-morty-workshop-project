@@ -10,8 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.36.2",
+    "@tanstack/react-query-devtools": "^5.36.2",
+    "@tanstack/react-router": "^1.32.13",
+    "@tanstack/router-devtools": "^1.32.13",
+    "ky": "^1.2.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
@@ -22,6 +28,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "prettier": "^3.2.5",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   }
